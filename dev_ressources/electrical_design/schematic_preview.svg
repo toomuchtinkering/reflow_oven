@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="820" viewBox="0 0 1240 820">
+<rect x="0" y="0" width="1240" height="820" fill="white"/>
+<rect x="0" y="540" width="1240" height="280" rx="0" ry="0" fill="#f7efe8"/>
+<line x1="0" y1="540" x2="1240" y2="540" stroke="#e3d2c2" stroke-width="2" stroke-linecap="round"/>
+<text x="470" y="564" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#9a6a3a">230 V MAINS</text>
+<text x="20" y="36" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#111111">Reflow Oven — Electrical Design</text>
+<line x1="85" y1="748" x2="1010" y2="748" stroke="#8a5a2b" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="85" y1="770" x2="1060" y2="770" stroke="#1f5fb0" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="85" y1="792" x2="1110" y2="792" stroke="#2e9e3f" stroke-width="3.4" stroke-linecap="round"/>
+<text x="74" y="752" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end" fill="#8a5a2b">L</text>
+<text x="74" y="774" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end" fill="#1f5fb0">N</text>
+<text x="74" y="796" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end" fill="#2e9e3f">PE</text>
+<rect x="50" y="80" width="150" height="380" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="74" y="270.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#111111" transform="rotate(-90 74 270.0)">E32R35T (ESP32)</text>
+<text x="192" y="124" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#c0392b">21  CS</text>
+<text x="192" y="150" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#c0392b">18  SCK</text>
+<text x="192" y="176" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#c0392b">19  MISO</text>
+<text x="192" y="209" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#e08a00">+3.3V</text>
+<text x="192" y="235" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#111111">GND</text>
+<text x="192" y="424" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" fill="#c0392b">32  GPIO</text>
+<text x="95" y="452" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#b8860b">+5V</text>
+<text x="170" y="452" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#111111">GND</text>
+<rect x="300" y="95" width="170" height="140" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="385.0" y="171.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">MAX31855</text>
+<rect x="560" y="95" width="200" height="120" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="660.0" y="152.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">K-Type</text>
+<text x="660.0" y="174.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#111111">Thermocouple</text>
+<text x="476" y="131" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#111111">T+</text>
+<text x="476" y="201" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#111111">T-</text>
+<rect x="300" y="300" width="170" height="180" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="385.0" y="387.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Solid-State</text>
+<text x="385.0" y="409.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#111111">Relay</text>
+<text x="310" y="349" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">GND</text>
+<text x="310" y="424" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#c0392b">IN</text>
+<text x="455" y="468" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#8a5a2b">L~</text>
+<rect x="560" y="300" width="170" height="60" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="645.0" y="327.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Heater 2</text>
+<text x="645.0" y="349.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#111111">(750 W)</text>
+<rect x="560" y="388" width="170" height="60" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="645.0" y="415.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Heater 1</text>
+<text x="645.0" y="437.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#111111">(750 W)</text>
+<rect x="800" y="300" width="140" height="60" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="870.0" y="336.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Ventilator</text>
+<rect x="800" y="388" width="140" height="60" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="870.0" y="424.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Lamp</text>
+<rect x="50" y="600" width="200" height="110" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="150.0" y="652.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">AC/DC</text>
+<text x="150.0" y="674.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#111111">230 V → +5 V</text>
+<rect x="960" y="560" width="220" height="160" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="1070.0" y="584" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#111111">IEC C14 inlet</text>
+<rect x="300" y="600" width="140" height="60" rx="10" ry="10" fill="#ffffff" stroke="#222222" stroke-width="2.2"/>
+<text x="370.0" y="636.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#111111">Housing</text>
+<line x1="200" y1="120" x2="300" y2="120" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="200" y1="146" x2="300" y2="146" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="200" y1="172" x2="300" y2="172" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="200" y1="205" x2="300" y2="205" stroke="#e08a00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="200" y1="231" x2="300" y2="231" stroke="#111111" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="470" y1="131" x2="560" y2="131" stroke="#c0392b" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="470" y1="201" x2="560" y2="201" stroke="#c0392b" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="515" y1="131" x2="515" y2="159.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="515" y1="201" x2="515" y2="173.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="502" y1="159.0" x2="528" y2="159.0" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="502" y1="173.0" x2="528" y2="173.0" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+<text x="515" y="223" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111111">10 nF</text>
+<circle cx="515" cy="131" r="4.2" fill="#c0392b"/>
+<circle cx="515" cy="201" r="4.2" fill="#c0392b"/>
+<line x1="250" y1="231" x2="250" y2="345" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="250" cy="231" r="4.2" fill="#111111"/>
+<line x1="250" y1="345" x2="300" y2="345" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="250" cy="345" r="4.2" fill="#111111"/>
+<rect x="242" y="367" width="16" height="30" rx="0" ry="0" fill="white" stroke="#111111" stroke-width="2"/>
+<line x1="250" y1="345" x2="250" y2="367" stroke="#111111" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="250" y1="397" x2="250" y2="420" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="250" cy="420" r="4.2" fill="#c0392b"/>
+<text x="238" y="388" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111111">10 kΩ</text>
+<line x1="200" y1="420" x2="300" y2="420" stroke="#c0392b" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="470" y1="375" x2="545" y2="375" stroke="#8e44ad" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="545" cy="375" r="4.2" fill="#8e44ad"/>
+<line x1="545" y1="330" x2="545" y2="418" stroke="#8e44ad" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="545" y1="330" x2="560" y2="330" stroke="#8e44ad" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="545" y1="418" x2="560" y2="418" stroke="#8e44ad" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="455" y1="480" x2="455" y2="748" stroke="#8a5a2b" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="455" cy="748" r="4.2" fill="#8a5a2b"/>
+<line x1="755" y1="330" x2="755" y2="477" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<rect x="747" y="477" width="16" height="46" rx="8" ry="8" fill="white" stroke="#111111" stroke-width="2"/>
+<line x1="755" y1="477" x2="755" y2="523" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<text x="738" y="494" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111111">Thermal</text>
+<text x="738" y="510" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111111">Fuse</text>
+<line x1="755" y1="523" x2="755" y2="770" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="755" cy="770" r="4.2" fill="#1f5fb0"/>
+<line x1="730" y1="330" x2="755" y2="330" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<line x1="730" y1="418" x2="755" y2="418" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="755" cy="418" r="4.2" fill="#1f5fb0"/>
+<line x1="785" y1="330" x2="785" y2="748" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="785" cy="748" r="4.2" fill="#8a5a2b"/>
+<line x1="950" y1="330" x2="950" y2="770" stroke="#1f5fb0" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="950" cy="770" r="4.2" fill="#1f5fb0"/>
+<line x1="800" y1="330" x2="785" y2="330" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="800" y1="418" x2="785" y2="418" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="785" cy="418" r="4.2" fill="#8a5a2b"/>
+<line x1="940" y1="330" x2="950" y2="330" stroke="#1f5fb0" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="940" y1="418" x2="950" y2="418" stroke="#1f5fb0" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="950" cy="418" r="4.2" fill="#1f5fb0"/>
+<line x1="95" y1="710" x2="95" y2="748" stroke="#8a5a2b" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="95" cy="748" r="4.2" fill="#8a5a2b"/>
+<line x1="170" y1="710" x2="170" y2="770" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="170" cy="770" r="4.2" fill="#1f5fb0"/>
+<line x1="95" y1="600" x2="95" y2="460" stroke="#b8860b" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="170" y1="600" x2="170" y2="460" stroke="#111111" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="210" y1="710" x2="210" y2="792" stroke="#2e9e3f" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 5"/>
+<circle cx="210" cy="792" r="4.2" fill="#2e9e3f"/>
+<text x="218" y="740" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#2e9e3f">PE–0V bond</text>
+<line x1="370.0" y1="660" x2="370.0" y2="792" stroke="#2e9e3f" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="370.0" cy="792" r="4.2" fill="#2e9e3f"/>
+<line x1="1180" y1="620" x2="1210" y2="620" stroke="#8a5a2b" stroke-width="3.0" stroke-linecap="round"/>
+<text x="1216" y="624" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#8a5a2b">L</text>
+<line x1="1180" y1="652" x2="1210" y2="652" stroke="#1f5fb0" stroke-width="3.0" stroke-linecap="round"/>
+<text x="1216" y="656" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1f5fb0">N</text>
+<line x1="1180" y1="680" x2="1210" y2="680" stroke="#2e9e3f" stroke-width="3.0" stroke-linecap="round"/>
+<text x="1216" y="684" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#2e9e3f">PE</text>
+<line x1="1180" y1="620" x2="1000" y2="620" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1000" y1="620" x2="1000" y2="748" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="1000" cy="748" r="4.2" fill="#8a5a2b"/>
+<rect x="1095" y="612" width="46" height="16" rx="8" ry="8" fill="white" stroke="#111111" stroke-width="2"/>
+<line x1="1095" y1="620" x2="1141" y2="620" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<text x="1118" y="642" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111111">Fuse 8 A</text>
+<circle cx="1049" cy="620" r="3" fill="#111111"/>
+<circle cx="1075" cy="620" r="3" fill="#111111"/>
+<line x1="1049" y1="620" x2="1072" y2="607" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="1180" y1="652" x2="1050" y2="652" stroke="#1f5fb0" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1050" y1="652" x2="1050" y2="770" stroke="#1f5fb0" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="1050" cy="770" r="4.2" fill="#1f5fb0"/>
+<circle cx="1049" cy="652" r="3" fill="#111111"/>
+<circle cx="1075" cy="652" r="3" fill="#111111"/>
+<line x1="1049" y1="652" x2="1072" y2="639" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="1180" y1="680" x2="1100" y2="680" stroke="#2e9e3f" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1100" y1="680" x2="1100" y2="792" stroke="#2e9e3f" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="1100" cy="792" r="4.2" fill="#2e9e3f"/>
+<line x1="1062" y1="606" x2="1062" y2="656" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 3"/>
+<rect x="971" y="92" width="200" height="232" rx="8" ry="8" fill="#fbfbfb" stroke="#222222" stroke-width="2.2"/>
+<text x="985" y="112" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111111">Legend</text>
+<line x1="985" y1="142" x2="1015" y2="142" stroke="#8a5a2b" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="146" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">L (live)</text>
+<line x1="985" y1="166" x2="1015" y2="166" stroke="#1f5fb0" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="170" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">N (neutral)</text>
+<line x1="985" y1="190" x2="1015" y2="190" stroke="#2e9e3f" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="194" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">PE (earth)</text>
+<line x1="985" y1="214" x2="1015" y2="214" stroke="#8e44ad" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="218" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">SSR → heater</text>
+<line x1="985" y1="238" x2="1015" y2="238" stroke="#c0392b" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="242" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">Signal / SPI</text>
+<line x1="985" y1="262" x2="1015" y2="262" stroke="#e08a00" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="266" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">+3.3 V</text>
+<line x1="985" y1="286" x2="1015" y2="286" stroke="#b8860b" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="290" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">+5 V</text>
+<line x1="985" y1="310" x2="1015" y2="310" stroke="#111111" stroke-width="3.6" stroke-linecap="round"/>
+<text x="1025" y="314" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111111">GND / 0 V</text>
+</svg>

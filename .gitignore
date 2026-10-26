@@ -1,0 +1,49 @@
+.superpowers/
+.claude
+.vscode/
+tmp
+
+# Build artifacts (PlatformIO + STM32CubeIDE + general embedded)
+.pio/
+build/
+# IDF Component Manager downloads (regenerated from idf_component.yml)
+managed_components/
+dependencies.lock
+# Generated sdkconfig (PlatformIO creates one per env; sdkconfig.defaults is the source of truth)
+sdkconfig
+sdkconfig.esp32*
+sdkconfig.native
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+# Generated PROJECT_VER source (written from git describe by pio_gen_version.py)
+version.txt
+# Generated embedded web asset (regenerated from src/web/ by build_web_asset.py)
+src/web/tuning_html_gz.c
+src/web/*.html.gz
+src/web/*.html.built
+results/
+.*lock
+# General dev hygiene (Python bytecode, secrets, local virtualenv)
+__pycache__/
+*.pyc
+.env
+.env.bak
+.venv/
+# Third-party material kept on disk for development but NOT redistributed:
+# vendor datasheets, LCDwiki board documents, the Instructables STM32/Nextion
+# reference design (license unconfirmed) and a shop product photo. The .md next
+# to each set links to the original source.
+dev_ressources/board_ressources/*.pdf
+dev_ressources/board_ressources/component_datasheets/
+dev_ressources/reference_design/*
+!dev_ressources/reference_design/reference_design.md
+dev_ressources/peripherals/*.pdf
+dev_ressources/peripherals/thermal_fuse_example.png

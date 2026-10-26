@@ -1,0 +1,3514 @@
+{
+  "api": 1,
+  "runs": [
+    {
+      "ts": "2026-07-19T12:08:40.548Z",
+      "joinedLate": false,
+      "samples": [
+        {
+          "t_s": 0.75,
+          "temp_c": 30.5,
+          "duty": 0,
+          "setpoint_c": 25,
+          "cj_c": 32.69
+        },
+        {
+          "t_s": 3,
+          "temp_c": 30.75,
+          "duty": 0,
+          "setpoint_c": 26.8,
+          "cj_c": 32.62
+        },
+        {
+          "t_s": 4.25,
+          "temp_c": 31.5,
+          "duty": 0,
+          "setpoint_c": 27.4,
+          "cj_c": 32.62
+        },
+        {
+          "t_s": 5.5,
+          "temp_c": 31.25,
+          "duty": 0,
+          "setpoint_c": 28,
+          "cj_c": 32.62
+        },
+        {
+          "t_s": 6.75,
+          "temp_c": 31.5,
+          "duty": 0,
+          "setpoint_c": 28.6,
+          "cj_c": 32.62
+        },
+        {
+          "t_s": 8,
+          "temp_c": 31.75,
+          "duty": 0,
+          "setpoint_c": 29.8,
+          "cj_c": 32.56
+        },
+        {
+          "t_s": 9.25,
+          "temp_c": 32.25,
+          "duty": 0,
+          "setpoint_c": 30.4,
+          "cj_c": 32.56
+        },
+        {
+          "t_s": 10.5,
+          "temp_c": 32.5,
+          "duty": 0,
+          "setpoint_c": 31,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 11.75,
+          "temp_c": 32,
+          "duty": 0,
+          "setpoint_c": 31.6,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 13,
+          "temp_c": 32.25,
+          "duty": 0,
+          "setpoint_c": 32.8,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 14.25,
+          "temp_c": 32.5,
+          "duty": 0,
+          "setpoint_c": 33.4,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 15.5,
+          "temp_c": 32.5,
+          "duty": 2,
+          "setpoint_c": 34,
+          "cj_c": 32.38
+        },
+        {
+          "t_s": 16.75,
+          "temp_c": 32.75,
+          "duty": 2,
+          "setpoint_c": 34.6,
+          "cj_c": 32.38
+        },
+        {
+          "t_s": 18,
+          "temp_c": 32.75,
+          "duty": 5,
+          "setpoint_c": 35.8,
+          "cj_c": 32.31
+        },
+        {
+          "t_s": 19,
+          "temp_c": 32.75,
+          "duty": 7,
+          "setpoint_c": 36.4,
+          "cj_c": 32.31
+        },
+        {
+          "t_s": 20.25,
+          "temp_c": 33,
+          "duty": 6,
+          "setpoint_c": 37,
+          "cj_c": 32.25
+        },
+        {
+          "t_s": 21.5,
+          "temp_c": 33,
+          "duty": 8,
+          "setpoint_c": 37.6,
+          "cj_c": 32.25
+        },
+        {
+          "t_s": 22.75,
+          "temp_c": 33.25,
+          "duty": 9,
+          "setpoint_c": 38.2,
+          "cj_c": 32.19
+        },
+        {
+          "t_s": 24,
+          "temp_c": 32.75,
+          "duty": 17,
+          "setpoint_c": 39.4,
+          "cj_c": 32.19
+        },
+        {
+          "t_s": 25.25,
+          "temp_c": 33,
+          "duty": 15,
+          "setpoint_c": 40,
+          "cj_c": 32.12
+        },
+        {
+          "t_s": 26.5,
+          "temp_c": 33.25,
+          "duty": 14,
+          "setpoint_c": 40.6,
+          "cj_c": 32.06
+        },
+        {
+          "t_s": 27.75,
+          "temp_c": 33.25,
+          "duty": 16,
+          "setpoint_c": 41.2,
+          "cj_c": 32.06
+        },
+        {
+          "t_s": 29,
+          "temp_c": 33.75,
+          "duty": 15,
+          "setpoint_c": 42.4,
+          "cj_c": 32
+        },
+        {
+          "t_s": 30.25,
+          "temp_c": 33.5,
+          "duty": 20,
+          "setpoint_c": 43,
+          "cj_c": 31.94
+        },
+        {
+          "t_s": 31.5,
+          "temp_c": 33.5,
+          "duty": 21,
+          "setpoint_c": 43.6,
+          "cj_c": 32
+        },
+        {
+          "t_s": 32.5,
+          "temp_c": 33.5,
+          "duty": 23,
+          "setpoint_c": 44.2,
+          "cj_c": 31.88
+        },
+        {
+          "t_s": 33.75,
+          "temp_c": 34.25,
+          "duty": 19,
+          "setpoint_c": 44.8,
+          "cj_c": 31.88
+        },
+        {
+          "t_s": 35,
+          "temp_c": 34.25,
+          "duty": 23,
+          "setpoint_c": 46,
+          "cj_c": 31.88
+        },
+        {
+          "t_s": 36.25,
+          "temp_c": 34,
+          "duty": 28,
+          "setpoint_c": 46.6,
+          "cj_c": 31.88
+        },
+        {
+          "t_s": 37.5,
+          "temp_c": 34,
+          "duty": 30,
+          "setpoint_c": 47.2,
+          "cj_c": 31.75
+        },
+        {
+          "t_s": 38.75,
+          "temp_c": 34,
+          "duty": 31,
+          "setpoint_c": 47.8,
+          "cj_c": 31.69
+        },
+        {
+          "t_s": 40,
+          "temp_c": 34.5,
+          "duty": 31,
+          "setpoint_c": 49,
+          "cj_c": 31.69
+        },
+        {
+          "t_s": 41.25,
+          "temp_c": 34.5,
+          "duty": 33,
+          "setpoint_c": 49.6,
+          "cj_c": 31.56
+        },
+        {
+          "t_s": 42.5,
+          "temp_c": 34.75,
+          "duty": 34,
+          "setpoint_c": 50.2,
+          "cj_c": 31.62
+        },
+        {
+          "t_s": 43.75,
+          "temp_c": 34.75,
+          "duty": 37,
+          "setpoint_c": 50.8,
+          "cj_c": 31.56
+        },
+        {
+          "t_s": 45,
+          "temp_c": 34.75,
+          "duty": 40,
+          "setpoint_c": 52,
+          "cj_c": 31.5
+        },
+        {
+          "t_s": 46.25,
+          "temp_c": 35.5,
+          "duty": 37,
+          "setpoint_c": 52.6,
+          "cj_c": 31.5
+        },
+        {
+          "t_s": 47.25,
+          "temp_c": 36,
+          "duty": 34,
+          "setpoint_c": 53.2,
+          "cj_c": 31.44
+        },
+        {
+          "t_s": 48.5,
+          "temp_c": 36,
+          "duty": 39,
+          "setpoint_c": 53.8,
+          "cj_c": 31.44
+        },
+        {
+          "t_s": 49.75,
+          "temp_c": 36.5,
+          "duty": 38,
+          "setpoint_c": 54.4,
+          "cj_c": 31.38
+        },
+        {
+          "t_s": 51,
+          "temp_c": 36,
+          "duty": 47,
+          "setpoint_c": 55.6,
+          "cj_c": 31.38
+        },
+        {
+          "t_s": 52.25,
+          "temp_c": 36.75,
+          "duty": 43,
+          "setpoint_c": 56.2,
+          "cj_c": 31.31
+        },
+        {
+          "t_s": 53.5,
+          "temp_c": 37.5,
+          "duty": 39,
+          "setpoint_c": 56.8,
+          "cj_c": 31.25
+        },
+        {
+          "t_s": 54.75,
+          "temp_c": 37.75,
+          "duty": 42,
+          "setpoint_c": 57.4,
+          "cj_c": 31.25
+        },
+        {
+          "t_s": 56,
+          "temp_c": 38.75,
+          "duty": 40,
+          "setpoint_c": 58.6,
+          "cj_c": 31.25
+        },
+        {
+          "t_s": 57,
+          "temp_c": 38,
+          "duty": 52,
+          "setpoint_c": 59.2,
+          "cj_c": 31.19
+        },
+        {
+          "t_s": 58.25,
+          "temp_c": 38.75,
+          "duty": 48,
+          "setpoint_c": 59.8,
+          "cj_c": 31.12
+        },
+        {
+          "t_s": 59.5,
+          "temp_c": 39.5,
+          "duty": 45,
+          "setpoint_c": 60.4,
+          "cj_c": 31.12
+        },
+        {
+          "t_s": 60.75,
+          "temp_c": 39.5,
+          "duty": 50,
+          "setpoint_c": 61,
+          "cj_c": 31
+        },
+        {
+          "t_s": 62,
+          "temp_c": 40.25,
+          "duty": 49,
+          "setpoint_c": 62.2,
+          "cj_c": 31
+        },
+        {
+          "t_s": 63.25,
+          "temp_c": 40.5,
+          "duty": 51,
+          "setpoint_c": 62.8,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 64.25,
+          "temp_c": 40.5,
+          "duty": 56,
+          "setpoint_c": 63.4,
+          "cj_c": 31
+        },
+        {
+          "t_s": 65.5,
+          "temp_c": 41.25,
+          "duty": 53,
+          "setpoint_c": 64,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 66.75,
+          "temp_c": 41.5,
+          "duty": 56,
+          "setpoint_c": 64.6,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 68,
+          "temp_c": 42.5,
+          "duty": 53,
+          "setpoint_c": 65.8,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 69.25,
+          "temp_c": 42.75,
+          "duty": 56,
+          "setpoint_c": 66.4,
+          "cj_c": 30.81
+        },
+        {
+          "t_s": 70.25,
+          "temp_c": 43.75,
+          "duty": 52,
+          "setpoint_c": 67,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 71.75,
+          "temp_c": 44,
+          "duty": 56,
+          "setpoint_c": 67.6,
+          "cj_c": 30.81
+        },
+        {
+          "t_s": 72.75,
+          "temp_c": 44,
+          "duty": 61,
+          "setpoint_c": 68.2,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 74,
+          "temp_c": 45.25,
+          "duty": 56,
+          "setpoint_c": 69.4,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 75.25,
+          "temp_c": 45,
+          "duty": 64,
+          "setpoint_c": 70,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 76.5,
+          "temp_c": 46.25,
+          "duty": 57,
+          "setpoint_c": 70.6,
+          "cj_c": 30.69
+        },
+        {
+          "t_s": 77.75,
+          "temp_c": 47,
+          "duty": 57,
+          "setpoint_c": 71.2,
+          "cj_c": 30.69
+        },
+        {
+          "t_s": 79,
+          "temp_c": 47.5,
+          "duty": 59,
+          "setpoint_c": 72.4,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 80.25,
+          "temp_c": 48.25,
+          "duty": 59,
+          "setpoint_c": 73,
+          "cj_c": 30.62
+        },
+        {
+          "t_s": 81.25,
+          "temp_c": 49,
+          "duty": 58,
+          "setpoint_c": 73.6,
+          "cj_c": 30.5
+        },
+        {
+          "t_s": 82.5,
+          "temp_c": 50,
+          "duty": 57,
+          "setpoint_c": 74.2,
+          "cj_c": 30.5
+        },
+        {
+          "t_s": 83.75,
+          "temp_c": 51.5,
+          "duty": 51,
+          "setpoint_c": 74.8,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 85,
+          "temp_c": 51.5,
+          "duty": 62,
+          "setpoint_c": 76,
+          "cj_c": 30.5
+        },
+        {
+          "t_s": 86.25,
+          "temp_c": 52.75,
+          "duty": 57,
+          "setpoint_c": 76.6,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 87.5,
+          "temp_c": 53.25,
+          "duty": 60,
+          "setpoint_c": 77.2,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 88.75,
+          "temp_c": 53.75,
+          "duty": 63,
+          "setpoint_c": 77.8,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 90,
+          "temp_c": 55,
+          "duty": 59,
+          "setpoint_c": 79,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 91.25,
+          "temp_c": 55.75,
+          "duty": 61,
+          "setpoint_c": 79.6,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 92.5,
+          "temp_c": 56.5,
+          "duty": 63,
+          "setpoint_c": 80.2,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 93.75,
+          "temp_c": 57.75,
+          "duty": 58,
+          "setpoint_c": 80.8,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 94.75,
+          "temp_c": 57.75,
+          "duty": 65,
+          "setpoint_c": 81.4,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 96,
+          "temp_c": 59,
+          "duty": 62,
+          "setpoint_c": 82.6,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 97.25,
+          "temp_c": 59.75,
+          "duty": 62,
+          "setpoint_c": 83.2,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 98.5,
+          "temp_c": 60.5,
+          "duty": 64,
+          "setpoint_c": 83.8,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 100,
+          "temp_c": 61.75,
+          "duty": 62,
+          "setpoint_c": 85,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 101,
+          "temp_c": 61.75,
+          "duty": 69,
+          "setpoint_c": 85.6,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 102.25,
+          "temp_c": 63,
+          "duty": 63,
+          "setpoint_c": 86.2,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 103.5,
+          "temp_c": 64,
+          "duty": 61,
+          "setpoint_c": 86.8,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 104.75,
+          "temp_c": 65,
+          "duty": 62,
+          "setpoint_c": 87.4,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 106,
+          "temp_c": 66.5,
+          "duty": 58,
+          "setpoint_c": 88.6,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 107.25,
+          "temp_c": 67,
+          "duty": 62,
+          "setpoint_c": 89.2,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 108.5,
+          "temp_c": 68.75,
+          "duty": 56,
+          "setpoint_c": 89.8,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 109.5,
+          "temp_c": 69.75,
+          "duty": 56,
+          "setpoint_c": 90.4,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 110.75,
+          "temp_c": 70,
+          "duty": 64,
+          "setpoint_c": 91,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 112,
+          "temp_c": 71.25,
+          "duty": 61,
+          "setpoint_c": 92.2,
+          "cj_c": 30.12
+        },
+        {
+          "t_s": 113.25,
+          "temp_c": 71.75,
+          "duty": 64,
+          "setpoint_c": 92.8,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 114.5,
+          "temp_c": 72.5,
+          "duty": 65,
+          "setpoint_c": 93.4,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 115.75,
+          "temp_c": 73.75,
+          "duty": 61,
+          "setpoint_c": 94,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 117,
+          "temp_c": 74.25,
+          "duty": 66,
+          "setpoint_c": 95.2,
+          "cj_c": 30.12
+        },
+        {
+          "t_s": 118.25,
+          "temp_c": 75.75,
+          "duty": 60,
+          "setpoint_c": 95.8,
+          "cj_c": 30.12
+        },
+        {
+          "t_s": 119.5,
+          "temp_c": 76.5,
+          "duty": 62,
+          "setpoint_c": 96.4,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 120.75,
+          "temp_c": 76.75,
+          "duty": 68,
+          "setpoint_c": 97,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 121.75,
+          "temp_c": 77,
+          "duty": 71,
+          "setpoint_c": 97.6,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 123,
+          "temp_c": 78.5,
+          "duty": 66,
+          "setpoint_c": 98.8,
+          "cj_c": 30
+        },
+        {
+          "t_s": 124.25,
+          "temp_c": 80.5,
+          "duty": 57,
+          "setpoint_c": 99.4,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 125.5,
+          "temp_c": 81.25,
+          "duty": 61,
+          "setpoint_c": 100,
+          "cj_c": 30
+        },
+        {
+          "t_s": 126.75,
+          "temp_c": 81.75,
+          "duty": 65,
+          "setpoint_c": 100.6,
+          "cj_c": 30
+        },
+        {
+          "t_s": 127.75,
+          "temp_c": 83.5,
+          "duty": 55,
+          "setpoint_c": 101.2,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 129,
+          "temp_c": 85,
+          "duty": 53,
+          "setpoint_c": 102.4,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 130.25,
+          "temp_c": 85.5,
+          "duty": 60,
+          "setpoint_c": 103,
+          "cj_c": 30
+        },
+        {
+          "t_s": 131.5,
+          "temp_c": 86.25,
+          "duty": 61,
+          "setpoint_c": 103.6,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 132.75,
+          "temp_c": 86.75,
+          "duty": 65,
+          "setpoint_c": 104.2,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 134,
+          "temp_c": 88.25,
+          "duty": 59,
+          "setpoint_c": 105.4,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 135,
+          "temp_c": 89,
+          "duty": 60,
+          "setpoint_c": 106,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 136.25,
+          "temp_c": 90.25,
+          "duty": 58,
+          "setpoint_c": 106.6,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 137.5,
+          "temp_c": 90.75,
+          "duty": 62,
+          "setpoint_c": 107.2,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 138.75,
+          "temp_c": 91.5,
+          "duty": 63,
+          "setpoint_c": 107.8,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 140,
+          "temp_c": 93.25,
+          "duty": 56,
+          "setpoint_c": 109,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 141.25,
+          "temp_c": 93.5,
+          "duty": 61,
+          "setpoint_c": 109.6,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 142.5,
+          "temp_c": 94.5,
+          "duty": 61,
+          "setpoint_c": 110.2,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 143.5,
+          "temp_c": 95.25,
+          "duty": 60,
+          "setpoint_c": 110.8,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 144.75,
+          "temp_c": 95.75,
+          "duty": 65,
+          "setpoint_c": 111.4,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 145.75,
+          "temp_c": 97.5,
+          "duty": 55,
+          "setpoint_c": 112,
+          "cj_c": 29.75
+        },
+        {
+          "t_s": 147,
+          "temp_c": 98.5,
+          "duty": 56,
+          "setpoint_c": 113.2,
+          "cj_c": 29.75
+        },
+        {
+          "t_s": 148.25,
+          "temp_c": 99.25,
+          "duty": 60,
+          "setpoint_c": 113.8,
+          "cj_c": 29.75
+        },
+        {
+          "t_s": 149.5,
+          "temp_c": 99.75,
+          "duty": 63,
+          "setpoint_c": 114.4,
+          "cj_c": 29.75
+        },
+        {
+          "t_s": 150.75,
+          "temp_c": 100.5,
+          "duty": 63,
+          "setpoint_c": 115,
+          "cj_c": 29.75
+        },
+        {
+          "t_s": 152,
+          "temp_c": 101.75,
+          "duty": 60,
+          "setpoint_c": 116.2,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 153.25,
+          "temp_c": 102.5,
+          "duty": 61,
+          "setpoint_c": 116.8,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 154.5,
+          "temp_c": 103.75,
+          "duty": 58,
+          "setpoint_c": 117.4,
+          "cj_c": 29.81
+        },
+        {
+          "t_s": 155.75,
+          "temp_c": 105,
+          "duty": 55,
+          "setpoint_c": 118,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 157,
+          "temp_c": 105.75,
+          "duty": 59,
+          "setpoint_c": 119.2,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 158.25,
+          "temp_c": 106.25,
+          "duty": 63,
+          "setpoint_c": 119.8,
+          "cj_c": 29.88
+        },
+        {
+          "t_s": 159.5,
+          "temp_c": 107.25,
+          "duty": 61,
+          "setpoint_c": 120.4,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 160.5,
+          "temp_c": 107.75,
+          "duty": 63,
+          "setpoint_c": 121,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 161.75,
+          "temp_c": 108.5,
+          "duty": 63,
+          "setpoint_c": 121.6,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 163,
+          "temp_c": 109.75,
+          "duty": 59,
+          "setpoint_c": 122.8,
+          "cj_c": 29.94
+        },
+        {
+          "t_s": 164.5,
+          "temp_c": 111.25,
+          "duty": 56,
+          "setpoint_c": 123.4,
+          "cj_c": 30
+        },
+        {
+          "t_s": 165.5,
+          "temp_c": 112,
+          "duty": 57,
+          "setpoint_c": 124,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 166.75,
+          "temp_c": 113.5,
+          "duty": 54,
+          "setpoint_c": 124.6,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 168,
+          "temp_c": 115.25,
+          "duty": 50,
+          "setpoint_c": 125.8,
+          "cj_c": 30
+        },
+        {
+          "t_s": 169.25,
+          "temp_c": 116,
+          "duty": 53,
+          "setpoint_c": 126.4,
+          "cj_c": 30
+        },
+        {
+          "t_s": 170.5,
+          "temp_c": 116,
+          "duty": 62,
+          "setpoint_c": 127,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 171.75,
+          "temp_c": 117,
+          "duty": 59,
+          "setpoint_c": 127.6,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 173,
+          "temp_c": 117.75,
+          "duty": 61,
+          "setpoint_c": 128.8,
+          "cj_c": 30.06
+        },
+        {
+          "t_s": 174,
+          "temp_c": 117.75,
+          "duty": 66,
+          "setpoint_c": 129.4,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 175.25,
+          "temp_c": 118.25,
+          "duty": 66,
+          "setpoint_c": 130,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 176.5,
+          "temp_c": 119,
+          "duty": 65,
+          "setpoint_c": 130.6,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 177.5,
+          "temp_c": 119.75,
+          "duty": 63,
+          "setpoint_c": 131.2,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 178.75,
+          "temp_c": 120.25,
+          "duty": 66,
+          "setpoint_c": 131.8,
+          "cj_c": 30.19
+        },
+        {
+          "t_s": 180,
+          "temp_c": 121.5,
+          "duty": 62,
+          "setpoint_c": 133,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 181.25,
+          "temp_c": 122,
+          "duty": 65,
+          "setpoint_c": 133.6,
+          "cj_c": 30.25
+        },
+        {
+          "t_s": 182.5,
+          "temp_c": 123.5,
+          "duty": 59,
+          "setpoint_c": 134.2,
+          "cj_c": 30.31
+        },
+        {
+          "t_s": 183.75,
+          "temp_c": 124.5,
+          "duty": 57,
+          "setpoint_c": 134.8,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 185,
+          "temp_c": 124.5,
+          "duty": 67,
+          "setpoint_c": 136,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 186.25,
+          "temp_c": 126.5,
+          "duty": 55,
+          "setpoint_c": 136.6,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 187.5,
+          "temp_c": 127.25,
+          "duty": 57,
+          "setpoint_c": 137.2,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 188.75,
+          "temp_c": 127.75,
+          "duty": 63,
+          "setpoint_c": 137.8,
+          "cj_c": 30.38
+        },
+        {
+          "t_s": 190,
+          "temp_c": 128.75,
+          "duty": 61,
+          "setpoint_c": 139,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 191.25,
+          "temp_c": 128.75,
+          "duty": 67,
+          "setpoint_c": 139.6,
+          "cj_c": 30.44
+        },
+        {
+          "t_s": 192.25,
+          "temp_c": 129.5,
+          "duty": 65,
+          "setpoint_c": 140.2,
+          "cj_c": 30.5
+        },
+        {
+          "t_s": 193.5,
+          "temp_c": 129.25,
+          "duty": 73,
+          "setpoint_c": 140.8,
+          "cj_c": 30.5
+        },
+        {
+          "t_s": 194.75,
+          "temp_c": 130.5,
+          "duty": 66,
+          "setpoint_c": 141.4,
+          "cj_c": 30.56
+        },
+        {
+          "t_s": 196,
+          "temp_c": 131.75,
+          "duty": 62,
+          "setpoint_c": 142.6,
+          "cj_c": 30.62
+        },
+        {
+          "t_s": 197.25,
+          "temp_c": 131.75,
+          "duty": 70,
+          "setpoint_c": 143.2,
+          "cj_c": 30.69
+        },
+        {
+          "t_s": 198.25,
+          "temp_c": 133,
+          "duty": 64,
+          "setpoint_c": 143.8,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 199.5,
+          "temp_c": 133.5,
+          "duty": 66,
+          "setpoint_c": 144.4,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 200.75,
+          "temp_c": 135,
+          "duty": 61,
+          "setpoint_c": 145,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 202,
+          "temp_c": 137,
+          "duty": 53,
+          "setpoint_c": 146.2,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 203.25,
+          "temp_c": 137,
+          "duty": 64,
+          "setpoint_c": 146.8,
+          "cj_c": 30.81
+        },
+        {
+          "t_s": 204.5,
+          "temp_c": 137.5,
+          "duty": 67,
+          "setpoint_c": 147.4,
+          "cj_c": 30.75
+        },
+        {
+          "t_s": 205.75,
+          "temp_c": 138.5,
+          "duty": 63,
+          "setpoint_c": 148,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 207,
+          "temp_c": 139.25,
+          "duty": 65,
+          "setpoint_c": 149.2,
+          "cj_c": 30.94
+        },
+        {
+          "t_s": 208.25,
+          "temp_c": 141.25,
+          "duty": 56,
+          "setpoint_c": 149.8,
+          "cj_c": 31
+        },
+        {
+          "t_s": 209.25,
+          "temp_c": 140.75,
+          "duty": 66,
+          "setpoint_c": 150,
+          "cj_c": 31
+        },
+        {
+          "t_s": 210.5,
+          "temp_c": 141.25,
+          "duty": 66,
+          "setpoint_c": 150,
+          "cj_c": 31.06
+        },
+        {
+          "t_s": 211.75,
+          "temp_c": 142.75,
+          "duty": 57,
+          "setpoint_c": 150,
+          "cj_c": 31
+        },
+        {
+          "t_s": 213,
+          "temp_c": 143.75,
+          "duty": 55,
+          "setpoint_c": 150,
+          "cj_c": 31.19
+        },
+        {
+          "t_s": 214.25,
+          "temp_c": 144.75,
+          "duty": 54,
+          "setpoint_c": 150,
+          "cj_c": 31.12
+        },
+        {
+          "t_s": 215.5,
+          "temp_c": 145.75,
+          "duty": 51,
+          "setpoint_c": 150,
+          "cj_c": 31.19
+        },
+        {
+          "t_s": 216.75,
+          "temp_c": 146,
+          "duty": 56,
+          "setpoint_c": 150,
+          "cj_c": 31.25
+        },
+        {
+          "t_s": 217.75,
+          "temp_c": 147,
+          "duty": 50,
+          "setpoint_c": 150,
+          "cj_c": 31.25
+        },
+        {
+          "t_s": 219,
+          "temp_c": 147.75,
+          "duty": 49,
+          "setpoint_c": 150,
+          "cj_c": 31.31
+        },
+        {
+          "t_s": 220.25,
+          "temp_c": 147.75,
+          "duty": 55,
+          "setpoint_c": 150,
+          "cj_c": 31.38
+        },
+        {
+          "t_s": 221.5,
+          "temp_c": 147.75,
+          "duty": 57,
+          "setpoint_c": 150,
+          "cj_c": 31.38
+        },
+        {
+          "t_s": 222.75,
+          "temp_c": 148.5,
+          "duty": 53,
+          "setpoint_c": 150,
+          "cj_c": 31.5
+        },
+        {
+          "t_s": 224,
+          "temp_c": 150.25,
+          "duty": 41,
+          "setpoint_c": 150,
+          "cj_c": 31.56
+        },
+        {
+          "t_s": 225.25,
+          "temp_c": 150.25,
+          "duty": 47,
+          "setpoint_c": 150,
+          "cj_c": 31.75
+        },
+        {
+          "t_s": 226.25,
+          "temp_c": 151.5,
+          "duty": 41,
+          "setpoint_c": 150,
+          "cj_c": 31.69
+        },
+        {
+          "t_s": 227.5,
+          "temp_c": 153.5,
+          "duty": 29,
+          "setpoint_c": 150,
+          "cj_c": 31.81
+        },
+        {
+          "t_s": 228.75,
+          "temp_c": 153.75,
+          "duty": 36,
+          "setpoint_c": 150,
+          "cj_c": 31.88
+        },
+        {
+          "t_s": 230,
+          "temp_c": 154.75,
+          "duty": 34,
+          "setpoint_c": 150,
+          "cj_c": 31.94
+        },
+        {
+          "t_s": 231.25,
+          "temp_c": 154.75,
+          "duty": 38,
+          "setpoint_c": 150,
+          "cj_c": 31.94
+        },
+        {
+          "t_s": 232.5,
+          "temp_c": 154.5,
+          "duty": 44,
+          "setpoint_c": 150,
+          "cj_c": 32
+        },
+        {
+          "t_s": 233.75,
+          "temp_c": 155.5,
+          "duty": 37,
+          "setpoint_c": 150,
+          "cj_c": 32.12
+        },
+        {
+          "t_s": 235,
+          "temp_c": 155.75,
+          "duty": 38,
+          "setpoint_c": 150,
+          "cj_c": 32.25
+        },
+        {
+          "t_s": 236.25,
+          "temp_c": 155.25,
+          "duty": 45,
+          "setpoint_c": 150,
+          "cj_c": 32.38
+        },
+        {
+          "t_s": 237.5,
+          "temp_c": 156.25,
+          "duty": 36,
+          "setpoint_c": 150,
+          "cj_c": 32.38
+        },
+        {
+          "t_s": 238.75,
+          "temp_c": 154.75,
+          "duty": 51,
+          "setpoint_c": 150,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 239.75,
+          "temp_c": 155.75,
+          "duty": 40,
+          "setpoint_c": 150,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 241,
+          "temp_c": 156,
+          "duty": 39,
+          "setpoint_c": 150,
+          "cj_c": 32.44
+        },
+        {
+          "t_s": 242.25,
+          "temp_c": 156.75,
+          "duty": 35,
+          "setpoint_c": 150,
+          "cj_c": 32.5
+        },
+        {
+          "t_s": 243.5,
+          "temp_c": 157,
+          "duty": 34,
+          "setpoint_c": 150,
+          "cj_c": 32.56
+        },
+        {
+          "t_s": 244.75,
+          "temp_c": 156.75,
+          "duty": 39,
+          "setpoint_c": 150,
+          "cj_c": 32.69
+        },
+        {
+          "t_s": 246,
+          "temp_c": 157.5,
+          "duty": 34,
+          "setpoint_c": 150,
+          "cj_c": 32.75
+        },
+        {
+          "t_s": 247.25,
+          "temp_c": 158,
+          "duty": 32,
+          "setpoint_c": 150,
+          "cj_c": 32.81
+        },
+        {
+          "t_s": 248.5,
+          "temp_c": 158.75,
+          "duty": 28,
+          "setpoint_c": 150,
+          "cj_c": 32.94
+        },
+        {
+          "t_s": 249.75,
+          "temp_c": 158.5,
+          "duty": 34,
+          "setpoint_c": 150,
+          "cj_c": 33
+        },
+        {
+          "t_s": 251,
+          "temp_c": 158.5,
+          "duty": 34,
+          "setpoint_c": 150,
+          "cj_c": 33
+        },
+        {
+          "t_s": 252,
+          "temp_c": 159,
+          "duty": 30,
+          "setpoint_c": 150,
+          "cj_c": 33.06
+        },
+        {
+          "t_s": 253.25,
+          "temp_c": 158.5,
+          "duty": 35,
+          "setpoint_c": 150,
+          "cj_c": 33.19
+        },
+        {
+          "t_s": 254.25,
+          "temp_c": 158.75,
+          "duty": 33,
+          "setpoint_c": 150,
+          "cj_c": 33.25
+        },
+        {
+          "t_s": 255.5,
+          "temp_c": 158.75,
+          "duty": 33,
+          "setpoint_c": 150,
+          "cj_c": 33.31
+        },
+        {
+          "t_s": 256.75,
+          "temp_c": 159.25,
+          "duty": 30,
+          "setpoint_c": 150,
+          "cj_c": 33.31
+        },
+        {
+          "t_s": 258,
+          "temp_c": 160.25,
+          "duty": 24,
+          "setpoint_c": 150,
+          "cj_c": 33.44
+        },
+        {
+          "t_s": 259,
+          "temp_c": 159.5,
+          "duty": 32,
+          "setpoint_c": 150,
+          "cj_c": 33.44
+        },
+        {
+          "t_s": 260.25,
+          "temp_c": 160.75,
+          "duty": 23,
+          "setpoint_c": 150,
+          "cj_c": 33.44
+        },
+        {
+          "t_s": 261.5,
+          "temp_c": 161,
+          "duty": 23,
+          "setpoint_c": 150,
+          "cj_c": 33.56
+        },
+        {
+          "t_s": 262.75,
+          "temp_c": 161.25,
+          "duty": 23,
+          "setpoint_c": 150,
+          "cj_c": 33.62
+        },
+        {
+          "t_s": 264,
+          "temp_c": 161.75,
+          "duty": 21,
+          "setpoint_c": 150,
+          "cj_c": 33.62
+        },
+        {
+          "t_s": 265.25,
+          "temp_c": 162.5,
+          "duty": 18,
+          "setpoint_c": 150,
+          "cj_c": 33.75
+        },
+        {
+          "t_s": 266.5,
+          "temp_c": 161.75,
+          "duty": 27,
+          "setpoint_c": 150,
+          "cj_c": 33.88
+        },
+        {
+          "t_s": 267.75,
+          "temp_c": 162,
+          "duty": 25,
+          "setpoint_c": 150,
+          "cj_c": 33.94
+        },
+        {
+          "t_s": 269,
+          "temp_c": 161.75,
+          "duty": 26,
+          "setpoint_c": 150,
+          "cj_c": 34.06
+        },
+        {
+          "t_s": 270.25,
+          "temp_c": 161.75,
+          "duty": 26,
+          "setpoint_c": 150,
+          "cj_c": 34.12
+        },
+        {
+          "t_s": 271.5,
+          "temp_c": 162,
+          "duty": 23,
+          "setpoint_c": 150,
+          "cj_c": 34.12
+        },
+        {
+          "t_s": 272.75,
+          "temp_c": 161.5,
+          "duty": 28,
+          "setpoint_c": 150,
+          "cj_c": 34.12
+        },
+        {
+          "t_s": 273.75,
+          "temp_c": 161.75,
+          "duty": 25,
+          "setpoint_c": 150,
+          "cj_c": 34.31
+        },
+        {
+          "t_s": 275,
+          "temp_c": 161.25,
+          "duty": 29,
+          "setpoint_c": 150,
+          "cj_c": 34.31
+        },
+        {
+          "t_s": 276.25,
+          "temp_c": 161,
+          "duty": 29,
+          "setpoint_c": 150,
+          "cj_c": 34.31
+        },
+        {
+          "t_s": 277.5,
+          "temp_c": 161.25,
+          "duty": 25,
+          "setpoint_c": 150,
+          "cj_c": 34.5
+        },
+        {
+          "t_s": 278.75,
+          "temp_c": 161,
+          "duty": 27,
+          "setpoint_c": 150,
+          "cj_c": 34.62
+        },
+        {
+          "t_s": 280,
+          "temp_c": 161.75,
+          "duty": 21,
+          "setpoint_c": 150,
+          "cj_c": 34.69
+        },
+        {
+          "t_s": 281.25,
+          "temp_c": 161.75,
+          "duty": 22,
+          "setpoint_c": 150,
+          "cj_c": 34.81
+        },
+        {
+          "t_s": 282.5,
+          "temp_c": 161.5,
+          "duty": 24,
+          "setpoint_c": 150,
+          "cj_c": 34.88
+        },
+        {
+          "t_s": 283.75,
+          "temp_c": 161.75,
+          "duty": 22,
+          "setpoint_c": 150,
+          "cj_c": 34.88
+        },
+        {
+          "t_s": 285,
+          "temp_c": 161.25,
+          "duty": 24,
+          "setpoint_c": 150,
+          "cj_c": 35
+        },
+        {
+          "t_s": 286.25,
+          "temp_c": 161,
+          "duty": 27,
+          "setpoint_c": 150,
+          "cj_c": 35
+        },
+        {
+          "t_s": 287.5,
+          "temp_c": 161,
+          "duty": 25,
+          "setpoint_c": 150,
+          "cj_c": 35.12
+        },
+        {
+          "t_s": 288.5,
+          "temp_c": 160.25,
+          "duty": 31,
+          "setpoint_c": 150,
+          "cj_c": 35.25
+        },
+        {
+          "t_s": 289.75,
+          "temp_c": 160.5,
+          "duty": 26,
+          "setpoint_c": 150,
+          "cj_c": 35.25
+        },
+        {
+          "t_s": 291,
+          "temp_c": 160.5,
+          "duty": 26,
+          "setpoint_c": 150.6,
+          "cj_c": 35.31
+        },
+        {
+          "t_s": 292.25,
+          "temp_c": 160.75,
+          "duty": 24,
+          "setpoint_c": 151.2,
+          "cj_c": 35.38
+        },
+        {
+          "t_s": 293.75,
+          "temp_c": 160.25,
+          "duty": 29,
+          "setpoint_c": 151.8,
+          "cj_c": 35.44
+        },
+        {
+          "t_s": 294.75,
+          "temp_c": 160,
+          "duty": 32,
+          "setpoint_c": 152.4,
+          "cj_c": 35.44
+        },
+        {
+          "t_s": 296,
+          "temp_c": 160.5,
+          "duty": 29,
+          "setpoint_c": 153.6,
+          "cj_c": 35.5
+        },
+        {
+          "t_s": 297.25,
+          "temp_c": 160.75,
+          "duty": 29,
+          "setpoint_c": 154.2,
+          "cj_c": 35.56
+        },
+        {
+          "t_s": 298.25,
+          "temp_c": 160.5,
+          "duty": 33,
+          "setpoint_c": 154.8,
+          "cj_c": 35.69
+        },
+        {
+          "t_s": 299.5,
+          "temp_c": 161,
+          "duty": 30,
+          "setpoint_c": 155.4,
+          "cj_c": 35.75
+        },
+        {
+          "t_s": 300.75,
+          "temp_c": 160.5,
+          "duty": 36,
+          "setpoint_c": 156,
+          "cj_c": 35.88
+        },
+        {
+          "t_s": 302,
+          "temp_c": 161,
+          "duty": 34,
+          "setpoint_c": 157.2,
+          "cj_c": 36
+        },
+        {
+          "t_s": 303.25,
+          "temp_c": 160,
+          "duty": 45,
+          "setpoint_c": 157.8,
+          "cj_c": 36.06
+        },
+        {
+          "t_s": 304.5,
+          "temp_c": 160.25,
+          "duty": 42,
+          "setpoint_c": 158.4,
+          "cj_c": 36.06
+        },
+        {
+          "t_s": 305.5,
+          "temp_c": 160.5,
+          "duty": 41,
+          "setpoint_c": 159,
+          "cj_c": 36.12
+        },
+        {
+          "t_s": 306.75,
+          "temp_c": 161,
+          "duty": 39,
+          "setpoint_c": 159.6,
+          "cj_c": 36.25
+        },
+        {
+          "t_s": 308,
+          "temp_c": 161.75,
+          "duty": 36,
+          "setpoint_c": 160.8,
+          "cj_c": 36.44
+        },
+        {
+          "t_s": 309.25,
+          "temp_c": 161.5,
+          "duty": 41,
+          "setpoint_c": 161.4,
+          "cj_c": 36.5
+        },
+        {
+          "t_s": 310.5,
+          "temp_c": 161.25,
+          "duty": 46,
+          "setpoint_c": 162,
+          "cj_c": 36.62
+        },
+        {
+          "t_s": 311.75,
+          "temp_c": 162.5,
+          "duty": 36,
+          "setpoint_c": 162.6,
+          "cj_c": 36.62
+        },
+        {
+          "t_s": 313,
+          "temp_c": 162,
+          "duty": 46,
+          "setpoint_c": 163.8,
+          "cj_c": 36.75
+        },
+        {
+          "t_s": 314.25,
+          "temp_c": 162.5,
+          "duty": 45,
+          "setpoint_c": 164.4,
+          "cj_c": 36.81
+        },
+        {
+          "t_s": 315.5,
+          "temp_c": 162.25,
+          "duty": 49,
+          "setpoint_c": 165,
+          "cj_c": 37
+        },
+        {
+          "t_s": 316.75,
+          "temp_c": 162.25,
+          "duty": 52,
+          "setpoint_c": 165.6,
+          "cj_c": 37
+        },
+        {
+          "t_s": 318,
+          "temp_c": 162.75,
+          "duty": 50,
+          "setpoint_c": 166.8,
+          "cj_c": 37
+        },
+        {
+          "t_s": 319.25,
+          "temp_c": 162.25,
+          "duty": 56,
+          "setpoint_c": 167.4,
+          "cj_c": 37.12
+        },
+        {
+          "t_s": 320.25,
+          "temp_c": 162.75,
+          "duty": 53,
+          "setpoint_c": 168,
+          "cj_c": 37.25
+        },
+        {
+          "t_s": 321.5,
+          "temp_c": 162.75,
+          "duty": 55,
+          "setpoint_c": 168.6,
+          "cj_c": 37.25
+        },
+        {
+          "t_s": 322.75,
+          "temp_c": 162.75,
+          "duty": 58,
+          "setpoint_c": 169.2,
+          "cj_c": 37.25
+        },
+        {
+          "t_s": 323.75,
+          "temp_c": 163.75,
+          "duty": 51,
+          "setpoint_c": 169.8,
+          "cj_c": 37.44
+        },
+        {
+          "t_s": 325,
+          "temp_c": 163.75,
+          "duty": 56,
+          "setpoint_c": 171,
+          "cj_c": 37.44
+        },
+        {
+          "t_s": 326.5,
+          "temp_c": 164.75,
+          "duty": 53,
+          "setpoint_c": 171.6,
+          "cj_c": 37.56
+        },
+        {
+          "t_s": 327.75,
+          "temp_c": 165.5,
+          "duty": 51,
+          "setpoint_c": 172.2,
+          "cj_c": 37.75
+        },
+        {
+          "t_s": 329,
+          "temp_c": 165.5,
+          "duty": 58,
+          "setpoint_c": 173.4,
+          "cj_c": 37.75
+        },
+        {
+          "t_s": 330.25,
+          "temp_c": 166.5,
+          "duty": 54,
+          "setpoint_c": 174,
+          "cj_c": 37.81
+        },
+        {
+          "t_s": 331.25,
+          "temp_c": 166.75,
+          "duty": 56,
+          "setpoint_c": 174.6,
+          "cj_c": 37.81
+        },
+        {
+          "t_s": 332.5,
+          "temp_c": 167,
+          "duty": 58,
+          "setpoint_c": 175.2,
+          "cj_c": 37.88
+        },
+        {
+          "t_s": 333.75,
+          "temp_c": 166.75,
+          "duty": 65,
+          "setpoint_c": 175.8,
+          "cj_c": 37.94
+        },
+        {
+          "t_s": 335,
+          "temp_c": 166.75,
+          "duty": 68,
+          "setpoint_c": 177,
+          "cj_c": 38
+        },
+        {
+          "t_s": 336.25,
+          "temp_c": 167.75,
+          "duty": 62,
+          "setpoint_c": 177.6,
+          "cj_c": 38.19
+        },
+        {
+          "t_s": 337.25,
+          "temp_c": 168.25,
+          "duty": 60,
+          "setpoint_c": 178.2,
+          "cj_c": 38.25
+        },
+        {
+          "t_s": 338.5,
+          "temp_c": 168.25,
+          "duty": 65,
+          "setpoint_c": 178.8,
+          "cj_c": 38.12
+        },
+        {
+          "t_s": 339.75,
+          "temp_c": 169.25,
+          "duty": 59,
+          "setpoint_c": 179.4,
+          "cj_c": 38.31
+        },
+        {
+          "t_s": 341,
+          "temp_c": 170,
+          "duty": 59,
+          "setpoint_c": 180.6,
+          "cj_c": 38.5
+        },
+        {
+          "t_s": 342.25,
+          "temp_c": 170.75,
+          "duty": 59,
+          "setpoint_c": 181.2,
+          "cj_c": 38.56
+        },
+        {
+          "t_s": 343.5,
+          "temp_c": 171,
+          "duty": 63,
+          "setpoint_c": 181.8,
+          "cj_c": 38.5
+        },
+        {
+          "t_s": 344.75,
+          "temp_c": 171,
+          "duty": 68,
+          "setpoint_c": 182.4,
+          "cj_c": 38.62
+        },
+        {
+          "t_s": 346,
+          "temp_c": 172.75,
+          "duty": 59,
+          "setpoint_c": 183.6,
+          "cj_c": 38.81
+        },
+        {
+          "t_s": 347.25,
+          "temp_c": 173.25,
+          "duty": 62,
+          "setpoint_c": 184.2,
+          "cj_c": 38.94
+        },
+        {
+          "t_s": 348.5,
+          "temp_c": 173.75,
+          "duty": 65,
+          "setpoint_c": 184.8,
+          "cj_c": 39
+        },
+        {
+          "t_s": 349.75,
+          "temp_c": 174.25,
+          "duty": 65,
+          "setpoint_c": 185.4,
+          "cj_c": 38.88
+        },
+        {
+          "t_s": 351,
+          "temp_c": 175,
+          "duty": 65,
+          "setpoint_c": 186.6,
+          "cj_c": 38.88
+        },
+        {
+          "t_s": 352.25,
+          "temp_c": 176,
+          "duty": 62,
+          "setpoint_c": 187.2,
+          "cj_c": 39
+        },
+        {
+          "t_s": 353.5,
+          "temp_c": 176.5,
+          "duty": 64,
+          "setpoint_c": 187.8,
+          "cj_c": 39.06
+        },
+        {
+          "t_s": 354.75,
+          "temp_c": 176.75,
+          "duty": 69,
+          "setpoint_c": 188.4,
+          "cj_c": 39.19
+        },
+        {
+          "t_s": 356,
+          "temp_c": 177.75,
+          "duty": 65,
+          "setpoint_c": 189.6,
+          "cj_c": 39.19
+        },
+        {
+          "t_s": 357.25,
+          "temp_c": 178,
+          "duty": 69,
+          "setpoint_c": 190.2,
+          "cj_c": 39.38
+        },
+        {
+          "t_s": 358.5,
+          "temp_c": 178.75,
+          "duty": 68,
+          "setpoint_c": 190.8,
+          "cj_c": 39.44
+        },
+        {
+          "t_s": 359.75,
+          "temp_c": 178.75,
+          "duty": 72,
+          "setpoint_c": 191.4,
+          "cj_c": 39.5
+        },
+        {
+          "t_s": 361,
+          "temp_c": 179.25,
+          "duty": 72,
+          "setpoint_c": 192.6,
+          "cj_c": 39.69
+        },
+        {
+          "t_s": 362.25,
+          "temp_c": 180.25,
+          "duty": 69,
+          "setpoint_c": 193.2,
+          "cj_c": 39.69
+        },
+        {
+          "t_s": 363.25,
+          "temp_c": 180.25,
+          "duty": 74,
+          "setpoint_c": 193.8,
+          "cj_c": 39.62
+        },
+        {
+          "t_s": 364.5,
+          "temp_c": 181.75,
+          "duty": 67,
+          "setpoint_c": 194.4,
+          "cj_c": 39.69
+        },
+        {
+          "t_s": 365.75,
+          "temp_c": 183.75,
+          "duty": 56,
+          "setpoint_c": 195,
+          "cj_c": 39.75
+        },
+        {
+          "t_s": 367,
+          "temp_c": 184,
+          "duty": 65,
+          "setpoint_c": 196.2,
+          "cj_c": 39.81
+        },
+        {
+          "t_s": 368.25,
+          "temp_c": 185.5,
+          "duty": 60,
+          "setpoint_c": 196.8,
+          "cj_c": 39.94
+        },
+        {
+          "t_s": 369.5,
+          "temp_c": 186,
+          "duty": 64,
+          "setpoint_c": 197.4,
+          "cj_c": 40
+        },
+        {
+          "t_s": 370.75,
+          "temp_c": 186.75,
+          "duty": 66,
+          "setpoint_c": 198,
+          "cj_c": 40.12
+        },
+        {
+          "t_s": 372,
+          "temp_c": 188,
+          "duty": 63,
+          "setpoint_c": 199.2,
+          "cj_c": 40.19
+        },
+        {
+          "t_s": 373.25,
+          "temp_c": 188.25,
+          "duty": 69,
+          "setpoint_c": 199.8,
+          "cj_c": 40.19
+        },
+        {
+          "t_s": 374.5,
+          "temp_c": 188.5,
+          "duty": 73,
+          "setpoint_c": 200.4,
+          "cj_c": 40.25
+        },
+        {
+          "t_s": 375.75,
+          "temp_c": 189,
+          "duty": 72,
+          "setpoint_c": 201,
+          "cj_c": 40.44
+        },
+        {
+          "t_s": 377,
+          "temp_c": 188.75,
+          "duty": 81,
+          "setpoint_c": 202.2,
+          "cj_c": 40.5
+        },
+        {
+          "t_s": 378,
+          "temp_c": 189.5,
+          "duty": 77,
+          "setpoint_c": 202.8,
+          "cj_c": 40.44
+        },
+        {
+          "t_s": 379.25,
+          "temp_c": 190.75,
+          "duty": 71,
+          "setpoint_c": 203.4,
+          "cj_c": 40.44
+        },
+        {
+          "t_s": 380.5,
+          "temp_c": 191.5,
+          "duty": 71,
+          "setpoint_c": 204,
+          "cj_c": 40.56
+        },
+        {
+          "t_s": 381.75,
+          "temp_c": 191.5,
+          "duty": 78,
+          "setpoint_c": 204.6,
+          "cj_c": 40.5
+        },
+        {
+          "t_s": 383,
+          "temp_c": 192.5,
+          "duty": 74,
+          "setpoint_c": 205.8,
+          "cj_c": 40.62
+        },
+        {
+          "t_s": 384.25,
+          "temp_c": 193.75,
+          "duty": 70,
+          "setpoint_c": 206.4,
+          "cj_c": 40.62
+        },
+        {
+          "t_s": 385.5,
+          "temp_c": 194.25,
+          "duty": 73,
+          "setpoint_c": 207,
+          "cj_c": 40.62
+        },
+        {
+          "t_s": 386.75,
+          "temp_c": 194.75,
+          "duty": 75,
+          "setpoint_c": 207.6,
+          "cj_c": 40.62
+        },
+        {
+          "t_s": 388,
+          "temp_c": 194.75,
+          "duty": 83,
+          "setpoint_c": 208.8,
+          "cj_c": 40.62
+        },
+        {
+          "t_s": 389.25,
+          "temp_c": 195.75,
+          "duty": 78,
+          "setpoint_c": 209.4,
+          "cj_c": 40.69
+        },
+        {
+          "t_s": 390.5,
+          "temp_c": 197,
+          "duty": 73,
+          "setpoint_c": 210,
+          "cj_c": 40.81
+        },
+        {
+          "t_s": 391.75,
+          "temp_c": 197.75,
+          "duty": 74,
+          "setpoint_c": 210.6,
+          "cj_c": 40.88
+        },
+        {
+          "t_s": 392.75,
+          "temp_c": 198,
+          "duty": 78,
+          "setpoint_c": 211.2,
+          "cj_c": 41
+        },
+        {
+          "t_s": 394,
+          "temp_c": 199,
+          "duty": 76,
+          "setpoint_c": 212.4,
+          "cj_c": 41.19
+        },
+        {
+          "t_s": 395.25,
+          "temp_c": 199.75,
+          "duty": 77,
+          "setpoint_c": 213,
+          "cj_c": 41.31
+        },
+        {
+          "t_s": 396.5,
+          "temp_c": 200,
+          "duty": 81,
+          "setpoint_c": 213.6,
+          "cj_c": 41.25
+        },
+        {
+          "t_s": 397.75,
+          "temp_c": 201.25,
+          "duty": 75,
+          "setpoint_c": 214.2,
+          "cj_c": 41.5
+        },
+        {
+          "t_s": 399,
+          "temp_c": 201.75,
+          "duty": 79,
+          "setpoint_c": 215.4,
+          "cj_c": 41.56
+        },
+        {
+          "t_s": 400,
+          "temp_c": 202.25,
+          "duty": 80,
+          "setpoint_c": 216,
+          "cj_c": 41.62
+        },
+        {
+          "t_s": 401.25,
+          "temp_c": 202.25,
+          "duty": 85,
+          "setpoint_c": 216.6,
+          "cj_c": 41.62
+        },
+        {
+          "t_s": 402.25,
+          "temp_c": 203,
+          "duty": 83,
+          "setpoint_c": 217.2,
+          "cj_c": 41.69
+        },
+        {
+          "t_s": 403.5,
+          "temp_c": 203.25,
+          "duty": 86,
+          "setpoint_c": 217.8,
+          "cj_c": 41.69
+        },
+        {
+          "t_s": 404.75,
+          "temp_c": 204,
+          "duty": 84,
+          "setpoint_c": 218.4,
+          "cj_c": 41.62
+        },
+        {
+          "t_s": 406,
+          "temp_c": 205.5,
+          "duty": 78,
+          "setpoint_c": 219.6,
+          "cj_c": 41.69
+        },
+        {
+          "t_s": 407.25,
+          "temp_c": 205.75,
+          "duty": 84,
+          "setpoint_c": 220.2,
+          "cj_c": 41.88
+        },
+        {
+          "t_s": 408.5,
+          "temp_c": 206.75,
+          "duty": 82,
+          "setpoint_c": 220.8,
+          "cj_c": 42
+        },
+        {
+          "t_s": 409.75,
+          "temp_c": 208.5,
+          "duty": 74,
+          "setpoint_c": 221.4,
+          "cj_c": 42.12
+        },
+        {
+          "t_s": 411,
+          "temp_c": 209.5,
+          "duty": 76,
+          "setpoint_c": 222.6,
+          "cj_c": 42.12
+        },
+        {
+          "t_s": 412,
+          "temp_c": 210,
+          "duty": 79,
+          "setpoint_c": 223.2,
+          "cj_c": 42.19
+        },
+        {
+          "t_s": 413.25,
+          "temp_c": 210.75,
+          "duty": 79,
+          "setpoint_c": 223.8,
+          "cj_c": 42.25
+        },
+        {
+          "t_s": 414.5,
+          "temp_c": 211.75,
+          "duty": 78,
+          "setpoint_c": 224.4,
+          "cj_c": 42.19
+        },
+        {
+          "t_s": 415.75,
+          "temp_c": 212,
+          "duty": 83,
+          "setpoint_c": 225,
+          "cj_c": 42.19
+        },
+        {
+          "t_s": 417,
+          "temp_c": 213,
+          "duty": 82,
+          "setpoint_c": 226.2,
+          "cj_c": 42.25
+        },
+        {
+          "t_s": 418.25,
+          "temp_c": 213.5,
+          "duty": 83,
+          "setpoint_c": 226.8,
+          "cj_c": 42.31
+        },
+        {
+          "t_s": 419.5,
+          "temp_c": 214.75,
+          "duty": 79,
+          "setpoint_c": 227.4,
+          "cj_c": 42.38
+        },
+        {
+          "t_s": 420.75,
+          "temp_c": 214.5,
+          "duty": 88,
+          "setpoint_c": 228,
+          "cj_c": 42.62
+        },
+        {
+          "t_s": 422,
+          "temp_c": 216,
+          "duty": 81,
+          "setpoint_c": 229.2,
+          "cj_c": 42.69
+        },
+        {
+          "t_s": 423.25,
+          "temp_c": 216.75,
+          "duty": 81,
+          "setpoint_c": 229.8,
+          "cj_c": 42.75
+        },
+        {
+          "t_s": 424.5,
+          "temp_c": 217.75,
+          "duty": 79,
+          "setpoint_c": 230,
+          "cj_c": 42.81
+        },
+        {
+          "t_s": 425.75,
+          "temp_c": 219.25,
+          "duty": 75,
+          "setpoint_c": 230,
+          "cj_c": 42.94
+        },
+        {
+          "t_s": 426.75,
+          "temp_c": 220.25,
+          "duty": 72,
+          "setpoint_c": 230,
+          "cj_c": 43
+        },
+        {
+          "t_s": 428,
+          "temp_c": 221.25,
+          "duty": 71,
+          "setpoint_c": 230,
+          "cj_c": 42.94
+        },
+        {
+          "t_s": 429.25,
+          "temp_c": 221.25,
+          "duty": 77,
+          "setpoint_c": 230,
+          "cj_c": 42.94
+        },
+        {
+          "t_s": 430.5,
+          "temp_c": 220.75,
+          "duty": 86,
+          "setpoint_c": 230,
+          "cj_c": 43.12
+        },
+        {
+          "t_s": 431.75,
+          "temp_c": 221.75,
+          "duty": 77,
+          "setpoint_c": 230,
+          "cj_c": 43.31
+        },
+        {
+          "t_s": 433,
+          "temp_c": 221.75,
+          "duty": 82,
+          "setpoint_c": 230,
+          "cj_c": 43.38
+        },
+        {
+          "t_s": 434,
+          "temp_c": 222.5,
+          "duty": 76,
+          "setpoint_c": 230,
+          "cj_c": 43.56
+        },
+        {
+          "t_s": 435.25,
+          "temp_c": 223.75,
+          "duty": 69,
+          "setpoint_c": 230,
+          "cj_c": 43.62
+        },
+        {
+          "t_s": 436.5,
+          "temp_c": 224.25,
+          "duty": 70,
+          "setpoint_c": 230,
+          "cj_c": 43.75
+        },
+        {
+          "t_s": 437.75,
+          "temp_c": 226,
+          "duty": 60,
+          "setpoint_c": 230,
+          "cj_c": 43.88
+        },
+        {
+          "t_s": 439,
+          "temp_c": 226,
+          "duty": 68,
+          "setpoint_c": 230,
+          "cj_c": 44
+        },
+        {
+          "t_s": 440.25,
+          "temp_c": 227,
+          "duty": 63,
+          "setpoint_c": 230,
+          "cj_c": 44.19
+        },
+        {
+          "t_s": 441.5,
+          "temp_c": 227.25,
+          "duty": 66,
+          "setpoint_c": 230,
+          "cj_c": 44.12
+        },
+        {
+          "t_s": 442.75,
+          "temp_c": 227.5,
+          "duty": 68,
+          "setpoint_c": 230,
+          "cj_c": 44.38
+        },
+        {
+          "t_s": 443.75,
+          "temp_c": 227.75,
+          "duty": 68,
+          "setpoint_c": 230,
+          "cj_c": 44.38
+        },
+        {
+          "t_s": 445.25,
+          "temp_c": 229.25,
+          "duty": 59,
+          "setpoint_c": 230,
+          "cj_c": 44.56
+        },
+        {
+          "t_s": 446.25,
+          "temp_c": 230,
+          "duty": 57,
+          "setpoint_c": 230,
+          "cj_c": 44.62
+        },
+        {
+          "t_s": 447.5,
+          "temp_c": 229.5,
+          "duty": 66,
+          "setpoint_c": 230,
+          "cj_c": 44.62
+        },
+        {
+          "t_s": 448.75,
+          "temp_c": 230.5,
+          "duty": 59,
+          "setpoint_c": 230,
+          "cj_c": 44.81
+        },
+        {
+          "t_s": 450.25,
+          "temp_c": 231.75,
+          "duty": 54,
+          "setpoint_c": 230,
+          "cj_c": 44.94
+        },
+        {
+          "t_s": 451.5,
+          "temp_c": 232.5,
+          "duty": 53,
+          "setpoint_c": 230,
+          "cj_c": 45.06
+        },
+        {
+          "t_s": 452.75,
+          "temp_c": 232.25,
+          "duty": 60,
+          "setpoint_c": 230,
+          "cj_c": 45.12
+        },
+        {
+          "t_s": 454,
+          "temp_c": 233,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 45.25
+        },
+        {
+          "t_s": 455,
+          "temp_c": 233.25,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 45.31
+        },
+        {
+          "t_s": 456.25,
+          "temp_c": 233.25,
+          "duty": 58,
+          "setpoint_c": 230,
+          "cj_c": 45.44
+        },
+        {
+          "t_s": 457.5,
+          "temp_c": 233.75,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 458.75,
+          "temp_c": 234,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 45.62
+        },
+        {
+          "t_s": 460,
+          "temp_c": 234,
+          "duty": 57,
+          "setpoint_c": 230,
+          "cj_c": 45.75
+        },
+        {
+          "t_s": 461.25,
+          "temp_c": 234.25,
+          "duty": 56,
+          "setpoint_c": 230,
+          "cj_c": 45.81
+        },
+        {
+          "t_s": 462.5,
+          "temp_c": 235,
+          "duty": 52,
+          "setpoint_c": 230,
+          "cj_c": 45.81
+        },
+        {
+          "t_s": 463.75,
+          "temp_c": 235.25,
+          "duty": 52,
+          "setpoint_c": 230,
+          "cj_c": 45.94
+        },
+        {
+          "t_s": 465,
+          "temp_c": 235,
+          "duty": 56,
+          "setpoint_c": 230,
+          "cj_c": 45.94
+        },
+        {
+          "t_s": 466.25,
+          "temp_c": 235.5,
+          "duty": 52,
+          "setpoint_c": 230,
+          "cj_c": 46.06
+        },
+        {
+          "t_s": 467.5,
+          "temp_c": 236.25,
+          "duty": 48,
+          "setpoint_c": 230,
+          "cj_c": 46.19
+        },
+        {
+          "t_s": 468.75,
+          "temp_c": 235.75,
+          "duty": 54,
+          "setpoint_c": 230,
+          "cj_c": 46.38
+        },
+        {
+          "t_s": 469.75,
+          "temp_c": 236,
+          "duty": 52,
+          "setpoint_c": 230,
+          "cj_c": 46.38
+        },
+        {
+          "t_s": 471,
+          "temp_c": 235,
+          "duty": 62,
+          "setpoint_c": 230,
+          "cj_c": 46.56
+        },
+        {
+          "t_s": 472.25,
+          "temp_c": 235.75,
+          "duty": 53,
+          "setpoint_c": 230,
+          "cj_c": 46.88
+        },
+        {
+          "t_s": 473.5,
+          "temp_c": 235.5,
+          "duty": 56,
+          "setpoint_c": 230,
+          "cj_c": 46.81
+        },
+        {
+          "t_s": 474.75,
+          "temp_c": 236.25,
+          "duty": 49,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 476,
+          "temp_c": 236.25,
+          "duty": 52,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 477.25,
+          "temp_c": 236.75,
+          "duty": 49,
+          "setpoint_c": 230,
+          "cj_c": 46.94
+        },
+        {
+          "t_s": 478.5,
+          "temp_c": 237,
+          "duty": 48,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 479.75,
+          "temp_c": 236.75,
+          "duty": 51,
+          "setpoint_c": 230,
+          "cj_c": 46.94
+        },
+        {
+          "t_s": 481,
+          "temp_c": 236.25,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 482.25,
+          "temp_c": 236.25,
+          "duty": 55,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 483.5,
+          "temp_c": 236.25,
+          "duty": 53,
+          "setpoint_c": 230,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 484.5,
+          "temp_c": 236.25,
+          "duty": 53,
+          "setpoint_c": 230,
+          "cj_c": 47.12
+        },
+        {
+          "t_s": 485.75,
+          "temp_c": 236.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.12
+        },
+        {
+          "t_s": 487,
+          "temp_c": 237,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.12
+        },
+        {
+          "t_s": 488.25,
+          "temp_c": 237.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.19
+        },
+        {
+          "t_s": 489.5,
+          "temp_c": 236.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.19
+        },
+        {
+          "t_s": 490.75,
+          "temp_c": 231,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.5
+        },
+        {
+          "t_s": 492,
+          "temp_c": 212.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.25
+        },
+        {
+          "t_s": 493.25,
+          "temp_c": 196.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.56
+        },
+        {
+          "t_s": 494.5,
+          "temp_c": 182.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.25
+        },
+        {
+          "t_s": 495.75,
+          "temp_c": 170.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.38
+        },
+        {
+          "t_s": 497,
+          "temp_c": 161.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.5
+        },
+        {
+          "t_s": 498.25,
+          "temp_c": 159.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.69
+        },
+        {
+          "t_s": 499.5,
+          "temp_c": 159.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.69
+        },
+        {
+          "t_s": 500.5,
+          "temp_c": 158,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.5
+        },
+        {
+          "t_s": 501.75,
+          "temp_c": 155,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 503,
+          "temp_c": 150.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.75
+        },
+        {
+          "t_s": 504.25,
+          "temp_c": 146.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.94
+        },
+        {
+          "t_s": 505.5,
+          "temp_c": 145.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48.12
+        },
+        {
+          "t_s": 506.75,
+          "temp_c": 144.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48.38
+        },
+        {
+          "t_s": 508,
+          "temp_c": 143.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48.12
+        },
+        {
+          "t_s": 509.25,
+          "temp_c": 140.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.94
+        },
+        {
+          "t_s": 510.5,
+          "temp_c": 135.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48.19
+        },
+        {
+          "t_s": 511.75,
+          "temp_c": 128.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 513,
+          "temp_c": 123.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 514.25,
+          "temp_c": 119,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 515.25,
+          "temp_c": 115.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 516.5,
+          "temp_c": 111,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 517.75,
+          "temp_c": 107.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 519,
+          "temp_c": 106,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 520.25,
+          "temp_c": 106.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 521.5,
+          "temp_c": 106,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 522.75,
+          "temp_c": 106.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 524,
+          "temp_c": 105,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 525.25,
+          "temp_c": 102.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 526.5,
+          "temp_c": 102,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 527.5,
+          "temp_c": 102.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 528.75,
+          "temp_c": 103.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 530,
+          "temp_c": 104,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 531.25,
+          "temp_c": 104.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 532.25,
+          "temp_c": 103,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 48
+        },
+        {
+          "t_s": 533.5,
+          "temp_c": 101.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.75
+        },
+        {
+          "t_s": 534.5,
+          "temp_c": 100.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.94
+        },
+        {
+          "t_s": 535.75,
+          "temp_c": 99.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.62
+        },
+        {
+          "t_s": 537,
+          "temp_c": 101.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 538.25,
+          "temp_c": 102,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 539.5,
+          "temp_c": 103.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.81
+        },
+        {
+          "t_s": 540.75,
+          "temp_c": 101.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.75
+        },
+        {
+          "t_s": 542,
+          "temp_c": 101,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.88
+        },
+        {
+          "t_s": 543.25,
+          "temp_c": 101,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.75
+        },
+        {
+          "t_s": 544.5,
+          "temp_c": 98.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.75
+        },
+        {
+          "t_s": 545.75,
+          "temp_c": 94.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.62
+        },
+        {
+          "t_s": 546.75,
+          "temp_c": 92,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.56
+        },
+        {
+          "t_s": 548,
+          "temp_c": 89.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.44
+        },
+        {
+          "t_s": 549.25,
+          "temp_c": 88.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.44
+        },
+        {
+          "t_s": 550.5,
+          "temp_c": 89.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.5
+        },
+        {
+          "t_s": 551.75,
+          "temp_c": 89.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.38
+        },
+        {
+          "t_s": 553,
+          "temp_c": 88,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.38
+        },
+        {
+          "t_s": 554.25,
+          "temp_c": 87.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.25
+        },
+        {
+          "t_s": 555.5,
+          "temp_c": 88,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.44
+        },
+        {
+          "t_s": 556.75,
+          "temp_c": 88.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.31
+        },
+        {
+          "t_s": 558,
+          "temp_c": 88.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 559,
+          "temp_c": 88.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.12
+        },
+        {
+          "t_s": 560.25,
+          "temp_c": 89.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47
+        },
+        {
+          "t_s": 561.5,
+          "temp_c": 89.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.19
+        },
+        {
+          "t_s": 562.75,
+          "temp_c": 88.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.94
+        },
+        {
+          "t_s": 563.75,
+          "temp_c": 88.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47.06
+        },
+        {
+          "t_s": 565,
+          "temp_c": 88.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.94
+        },
+        {
+          "t_s": 566.25,
+          "temp_c": 87.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 47
+        },
+        {
+          "t_s": 567.5,
+          "temp_c": 85.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.75
+        },
+        {
+          "t_s": 568.75,
+          "temp_c": 84,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.75
+        },
+        {
+          "t_s": 570,
+          "temp_c": 82.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.88
+        },
+        {
+          "t_s": 571.25,
+          "temp_c": 81.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.81
+        },
+        {
+          "t_s": 572.5,
+          "temp_c": 79.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.75
+        },
+        {
+          "t_s": 573.75,
+          "temp_c": 79.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.56
+        },
+        {
+          "t_s": 575,
+          "temp_c": 78.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.5
+        },
+        {
+          "t_s": 576.25,
+          "temp_c": 77,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.38
+        },
+        {
+          "t_s": 577.5,
+          "temp_c": 76,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.44
+        },
+        {
+          "t_s": 578.75,
+          "temp_c": 76.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.69
+        },
+        {
+          "t_s": 579.75,
+          "temp_c": 76.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.62
+        },
+        {
+          "t_s": 581,
+          "temp_c": 76,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.5
+        },
+        {
+          "t_s": 582.5,
+          "temp_c": 74,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.31
+        },
+        {
+          "t_s": 583.75,
+          "temp_c": 73.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.31
+        },
+        {
+          "t_s": 584.75,
+          "temp_c": 73,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.06
+        },
+        {
+          "t_s": 586,
+          "temp_c": 71.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46
+        },
+        {
+          "t_s": 587.25,
+          "temp_c": 69.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.06
+        },
+        {
+          "t_s": 588.5,
+          "temp_c": 69,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46
+        },
+        {
+          "t_s": 589.75,
+          "temp_c": 68,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46.12
+        },
+        {
+          "t_s": 591,
+          "temp_c": 68.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.94
+        },
+        {
+          "t_s": 592.25,
+          "temp_c": 68.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.69
+        },
+        {
+          "t_s": 593.25,
+          "temp_c": 69,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 46
+        },
+        {
+          "t_s": 594.5,
+          "temp_c": 69.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.62
+        },
+        {
+          "t_s": 595.75,
+          "temp_c": 68.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 597,
+          "temp_c": 68.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 598.25,
+          "temp_c": 69.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.69
+        },
+        {
+          "t_s": 599.5,
+          "temp_c": 69.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.69
+        },
+        {
+          "t_s": 600.5,
+          "temp_c": 69.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 601.75,
+          "temp_c": 69.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.75
+        },
+        {
+          "t_s": 602.75,
+          "temp_c": 70.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 604,
+          "temp_c": 71,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.56
+        },
+        {
+          "t_s": 605.25,
+          "temp_c": 73.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.62
+        },
+        {
+          "t_s": 606.5,
+          "temp_c": 75.25,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.5
+        },
+        {
+          "t_s": 607.75,
+          "temp_c": 76.75,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.69
+        },
+        {
+          "t_s": 609,
+          "temp_c": 78.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.75
+        },
+        {
+          "t_s": 610.25,
+          "temp_c": 80,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.69
+        },
+        {
+          "t_s": 611.5,
+          "temp_c": 80.5,
+          "duty": 0,
+          "setpoint_c": 0,
+          "cj_c": 45.81
+        }
+      ],
+      "kind": "reflow",
+      "overshoot": 12.5,
+      "aboveLiquidus": 67.5
+    }
+  ]
+}

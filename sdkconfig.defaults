@@ -1,0 +1,72 @@
+# Brown-out detector at the highest threshold — see spec §6.1 item 7.
+# Symbol name varies between IDF versions; uncomment the matching one.
+CONFIG_ESP_BROWNOUT_DET=y
+CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7=y
+CONFIG_ESP_BROWNOUT_DET_LVL=7
+CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7=y
+CONFIG_ESP32_BROWNOUT_DET_LVL=7
+
+# Bluetooth permanently disabled (spec §3.4).
+CONFIG_BT_ENABLED=n
+
+# LVGL heap. Raised from the 64 KB default after two assert captures showed
+# the arena exhausted at peak: 0f5c1b7 asserted in lv_draw_add_task
+# (lv_draw.c:107) — a ~200 B draw-task allocation — while the sample 231 ms
+# earlier still read 6436 B free. Draw tasks are queued per render band and
+# freed only once executed, so a complex band bursts the pool to 100% within a
+# single frame, far faster than the 1 Hz sampler can observe.
+#
+# The extra 16 KB is funded by halving the display render band (see
+# disp_cfg.buffer_size in ui_task.c), so total internal RAM is roughly
+# unchanged and OTA heap headroom is preserved — the constraint that ruled this
+# out earlier.
+CONFIG_LV_MEM_SIZE_KILOBYTES=80
+
+# Route every LVGL assert to src/diag/lv_assert_trap.c instead of the default
+# bare `while(1);`. LV_USE_ASSERT_MALLOC and LV_USE_ASSERT_NULL are both on
+# while LV_USE_LOG is off, so an assert otherwise spins forever inside the LVGL
+# task holding the LVGL lock and prints nothing at all. The trap records the
+# call-site PC to the RTC crash log and reboots, turning a silent hang into a
+# located, retrievable fault. The header redefines LV_ASSERT_HANDLER itself —
+# see its comment for why that cannot be a -D flag.
+CONFIG_LV_ASSERT_HANDLER_INCLUDE="diag/lv_assert_trap.h"
+
+# We init the task watchdog ourselves with a custom timeout (Task 23).
+CONFIG_ESP_TASK_WDT_INIT=n
+CONFIG_ESP_TASK_WDT_EN=y
+CONFIG_ESP_TASK_WDT_PANIC=y
+
+# Flash size: 4 MB (GD25Q32 on the E32R35T, esptool flash_id 2026-06-10).
+# Without this PlatformIO generated a 2 MB default, which understated the
+# size in the bootloader image header and blocked growing the OTA slots.
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Partition table: custom two-OTA layout (partitions.csv) for OTA update path.
+# Filename is selected by board_build.partitions in platformio.ini; this flag
+# tells IDF to honour a custom CSV instead of one of the stock layouts.
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_FILENAME="partitions.csv"
+
+# OTA rollback — bootloader auto-reverts on next boot if app didn't mark
+# itself valid; APP_ROLLBACK exposes esp_ota_mark_app_valid_cancel_rollback.
+CONFIG_BOOTLOADER_APP_ROLLBACK_ENABLE=y
+CONFIG_APP_ROLLBACK_ENABLE=y
+
+# HTTP server caps for /ota (token + Content-Type + Content-Length headers).
+CONFIG_HTTPD_MAX_REQ_HDR_LEN=1024
+CONFIG_HTTPD_MAX_URI_LEN=64
+
+# WiFi dynamic buffers — saves RAM versus the default static pool.
+CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER=y
+CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER=y
+
+# LWIP loopback — improves mDNS reliability on some networks (OTA spec §2.3).
+CONFIG_LWIP_NETIF_LOOPBACK=y
+
+# LVGL fonts used by the UI (spec §7): 14 px default; 20 px for the
+# profile-editor value chips; 28 px on the keypad value display;
+# 48 px on the Home screen big temperature readout. Defaults only
+# enable Montserrat 14 — opt the larger sizes in here.
+CONFIG_LV_FONT_MONTSERRAT_20=y
+CONFIG_LV_FONT_MONTSERRAT_28=y
+CONFIG_LV_FONT_MONTSERRAT_48=y

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang=en>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Reflow oven — PID tuning</title>
+<link rel=stylesheet href="uplot.min.css">
+<style>
+  :root{--bg:#0f1419;--panel:#141a21;--border:#232833;--fg:#cdd3dc;--accent:#1f6feb;
+        --temp:#f0883e;--duty:#58a6ff;--err:#c93c3c;--ok:#3fb950;--mut:#7d8590}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);
+     font-family:system-ui,sans-serif;font-size:14px}
+  header{display:flex;justify-content:space-between;padding:8px 12px;border-bottom:1px solid var(--border)}
+  .wrap{display:flex;gap:14px;padding:12px}
+  .left{flex:2;min-width:0}.rail{flex:1;min-width:200px;display:flex;flex-direction:column;gap:10px}
+  /* No fixed height: uPlot sizes the canvas and renders its live legend
+     below it, and the container has to grow to hold both. */
+  #chart{width:100%;background:#0b0f14;border:1px solid var(--border);border-radius:6px;
+         padding:4px 0 2px;box-sizing:border-box;overflow:hidden}
+  /* uplot.min.css is authored light; re-theme it onto the page palette. */
+  .u-legend{color:var(--mut);font-size:12px;margin-top:4px}
+  .u-legend .u-value{color:var(--fg)}
+  .u-legend tr.u-off .u-label{opacity:.4}
+  .u-select{background:rgba(88,166,255,.15)}
+  .u-cursor-x,.u-cursor-y{border-color:#8b949e}
+  /* ZN tangent control points. DOM elements, not pixels: a press here stops
+     before uPlot starts a drag-zoom, so the two gestures cannot collide.
+     touch-action:none is what makes the pointer drag work on a tablet. */
+  .zn-handle{position:absolute;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;
+     background:#8b949e;border:2px solid #0b0f14;cursor:grab;touch-action:none;z-index:5}
+  .zn-handle:active{background:var(--fg);cursor:grabbing}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px}
+  .row{display:flex;justify-content:space-between}
+  button{border:0;border-radius:6px;padding:10px;font-weight:600;cursor:pointer;color:#fff}
+  .stop{background:var(--err)} .suggest{background:var(--accent)}
+  .legend{display:flex;gap:14px;color:var(--mut);font-size:12px;margin-top:6px;flex-wrap:wrap}
+  select{width:100%;background:#0b0f14;color:var(--fg);border:1px solid var(--border);border-radius:5px;padding:6px}
+  #archive .item{display:flex;gap:8px;align-items:center;padding:6px;border-bottom:1px solid var(--border);font-size:12px}
+  .banner{background:var(--err);color:#fff;padding:6px 12px;text-align:center;display:none}
+  .mut{color:var(--mut)}
+</style>
+
+<header>
+  <div><b>Reflow oven</b> <span class=mut id=host>reflow.local</span> <span class=mut id=apiv></span> <span class=mut id=fwv></span></div>
+  <div id=conn class=mut>connecting…</div>
+</header>
+<div class=banner id=banner></div>
+
+<div class=wrap>
+  <div class=left>
+    <div id=chart></div>
+    <div class=legend>
+      <span style="color:var(--mut)">┈ ZN tangent</span>
+      <span style="color:var(--err)">┈ ceiling</span>
+      <span class=mut>drag to zoom · double-click to reset · drag the ● handles to refine the fit</span>
+    </div>
+    <div class=card id=verify style="margin-top:12px;display:none;border-color:var(--ok)">
+      <span class=mut>VERIFICATION</span> <b id=verifyText></b>
+      <button id=kholdSuggest style="display:none;background:#22272e">apply k_hold estimate →</button>
+    </div>
+    <div class=card style="margin-top:12px">
+      <div class=row><b id=arcHdr>▾ Archive — 0 runs</b>
+        <span><button id=exp style="background:#22272e">Export</button>
+        <button id=imp style="background:#22272e">Import</button></span></div>
+      <div class=mut style="font-size:12px;margin:4px 0">tick a run to plot it; untick “current run” to see only archived curves</div>
+      <div id=archive></div>
+    </div>
+  </div>
+  <div class=rail>
+    <div class=card>
+      <div class=mut>STATUS</div>
+      <div class=row><span>mode</span><b id=st_mode>—</b></div>
+      <div class=row><span>temp</span><b id=st_temp>—</b></div>
+      <div class=row><span>electronics</span><b id=st_cj>—</b></div>
+      <div class=row><span>duty</span><b id=st_duty>—</b></div>
+      <div class=row><span>elapsed</span><b id=st_elapsed>—</b></div>
+      <div class=row><span>ended</span><b id=st_end>—</b></div>
+    </div>
+    <button class=stop id=stop>■ STOP</button>
+    <div class=card>
+      <div class=mut>REACTION-CURVE FIT</div>
+      <div class=row><span>dead time L</span><b id=f_L>—</b></div>
+      <div class=row><span>slope N</span><b id=f_N>—</b></div>
+      <div class=row><span>ΔCO</span><b id=f_dco>—</b></div>
+    </div>
+    <div class=card>
+      <div class=mut>TUNING RULE</div>
+      <select id=rule>
+        <option value=zn>Ziegler–Nichols (classic)</option>
+        <option value=conservative>Conservative (less overshoot)</option>
+        <option value=no-overshoot selected>No-overshoot</option>
+      </select>
+      <div class=row style="margin-top:8px"><span>Kp</span><b id=g_kp>—</b></div>
+      <div class=row><span>Ki</span><b id=g_ki>—</b></div>
+      <div class=row><span>Kd</span><b id=g_kd>—</b></div>
+      <div class=row><span>K.hold <span class=mut>(oven)</span></span><b id=g_khold>—</b></div>
+      <div class=row><span>K.rate</span><b id=g_krate>—</b></div>
+    </div>
+    <button class=suggest id=suggest>Suggest to oven →</button>
+    <div class=mut style="text-align:center">confirm on the oven touchscreen</div>
+    <input type=hidden id=token>
+  </div>
+</div>
+
+<script src="uplot.iife.min.js"></script>
+<script type=module src="html.js"></script>
+<script type=module src="align.js"></script>
+<script type=module src="fit.js"></script>
+<script type=module src="app.js"></script>

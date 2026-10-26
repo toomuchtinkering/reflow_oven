@@ -1,0 +1,11 @@
+# Name,   Type, SubType, Offset,   Size,     Flags
+# 4 MB flash (GD25Q32 on the E32R35T, confirmed via esptool flash_id
+# 2026-06-10). Both OTA slots grown from 0x170000 to 0x1F0000 to use the
+# full chip; ota_1 ends exactly at 0x400000. Changing this table requires
+# a serial reflash (table + app) — nvs/otadata/phy offsets are unchanged,
+# so WiFi creds, the OTA token, and profile/PID settings survive.
+nvs,      data, nvs,     0x9000,   0x6000,
+otadata,  data, ota,     0xf000,   0x2000,
+phy_init, data, phy,     0x11000,  0x1000,
+ota_0,    app,  ota_0,   0x20000,  0x1F0000,
+ota_1,    app,  ota_1,   0x210000, 0x1F0000,

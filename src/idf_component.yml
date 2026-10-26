@@ -1,0 +1,15 @@
+## IDF Component Manager manifest — resolved at CMake-configure time.
+dependencies:
+  idf:
+    version: ">=5.0"
+  lvgl/lvgl:
+    version: "^9"
+  espressif/esp_lvgl_port:
+    version: "^2"
+  espressif/esp_lcd_st7796:
+    version: "^1"
+  # XPT2046 touch driver lives under atanisoft namespace on components.espressif.com
+  atanisoft/esp_lcd_touch_xpt2046:
+    version: "^1"
+  espressif/mdns:
+    version: "^1"
