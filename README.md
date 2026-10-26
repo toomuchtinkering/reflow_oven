@@ -7,6 +7,11 @@ solid-state relay. Based on the
 (STM32 + Nextion reference design), retargeted to the all-in-one
 [LCDwiki E32R35T](http://www.lcdwiki.com/E32R35T) display board.
 
+[![DIY Reflow Oven: ESP32 Touchscreen, PID + Feed-Forward](https://img.youtube.com/vi/pySfr4F2WqY/maxresdefault.jpg)](https://youtu.be/pySfr4F2WqY)
+
+**Video:** [DIY Reflow Oven: ESP32 Touchscreen, PID + Feed-Forward](https://youtu.be/pySfr4F2WqY)
+on YouTube.
+
 > ⚠️ **Safety:** this project switches mains voltage and reaches 250 °C.
 > Don't build or modify it unless you know what you're doing on both counts.
 > The firmware's safety layer (over-temperature latch, sensor-staleness
